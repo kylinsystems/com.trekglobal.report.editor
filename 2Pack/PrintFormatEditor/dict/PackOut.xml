@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idempiere Name="PrintFormatEditor" Version="1.0" idempiereVersion="" DataBaseVersion="" Description="" Author="" AuthorEmail="" CreatedDate="2013-10-30 17:36:24.046" UpdatedDate="2013-10-30 17:36:24.046" PackOutVersion="100" UpdateDictionary="false" Client="0-SYSTEM-System" AD_Client_UU="11237b53-9592-4af1-b3c5-afd216514b5d">
+    <AD_ToolBarButton type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Action>W</Action>
+        <AD_Tab_ID reference="id"/>
+        <AD_Process_ID reference="id"/>
+        <DisplayLogic>@_WinInfo_AD_Window_ID@=240&amp;@AD_Client_ID@=@#AD_Client_ID@&amp;@AD_PrintFormat_ID@&gt;0</DisplayLogic>
+        <SeqNo/>
+        <ActionClassName>com.trekglobal.report.editor.action.EditorAction</ActionClassName>
+        <ActionName/>
+        <KeyStroke_KeyCode>0</KeyStroke_KeyCode>
+        <KeyStroke_Modifiers>0</KeyStroke_Modifiers>
+        <IsCustomization>true</IsCustomization>
+        <Name>Print Format Editor</Name>
+        <ComponentName>PrintFormatEditor</ComponentName>
+        <IsActive>true</IsActive>
+        <AD_ToolBarButton_UU>233cf1ba-4cc8-4a11-ad67-22942a207cf0</AD_ToolBarButton_UU>
+        <IsAdvancedButton>false</IsAdvancedButton>
+        <EntityType>U</EntityType>
+    </AD_ToolBarButton>
+    <AD_Message type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <MsgType>I</MsgType>
+        <MsgText>Print Format Editor</MsgText>
+        <MsgTip/>
+        <AD_Message_UU>371cd3f0-451c-47b2-94f5-96c8ac15c527</AD_Message_UU>
+        <Value>com.trekglobal.report.editor.action.EditorAction.label</Value>
+        <IsActive>true</IsActive>
+        <EntityType>U</EntityType>
+        <AD_Message_Trl type="translation">
+            <MsgText>Print Format Editor</MsgText>
+            <MsgTip/>
+            <AD_Language>es_CO</AD_Language>
+            <IsActive>true</IsActive>
+            <IsTranslated>false</IsTranslated>
+        </AD_Message_Trl>
+        <AD_Message_Trl type="translation">
+            <MsgText>Print Format Editor</MsgText>
+            <MsgTip/>
+            <AD_Language>en_US</AD_Language>
+            <IsActive>true</IsActive>
+            <IsTranslated>false</IsTranslated>
+        </AD_Message_Trl>
+    </AD_Message>
+    <AD_Message type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <MsgType>I</MsgType>
+        <MsgText>Visual editor for print format</MsgText>
+        <MsgTip/>
+        <AD_Message_UU>f3223059-b2c2-48c1-ae88-42eed74e1b27</AD_Message_UU>
+        <Value>com.trekglobal.report.editor.action.EditorAction.tooltip</Value>
+        <IsActive>true</IsActive>
+        <EntityType>U</EntityType>
+        <AD_Message_Trl type="translation">
+            <MsgText>Visual editor for print format</MsgText>
+            <MsgTip/>
+            <AD_Language>es_CO</AD_Language>
+            <IsActive>true</IsActive>
+            <IsTranslated>false</IsTranslated>
+        </AD_Message_Trl>
+        <AD_Message_Trl type="translation">
+            <MsgText>Visual editor for print format</MsgText>
+            <MsgTip/>
+            <AD_Language>en_US</AD_Language>
+            <IsActive>true</IsActive>
+            <IsTranslated>false</IsTranslated>
+        </AD_Message_Trl>
+    </AD_Message>
+</idempiere>
