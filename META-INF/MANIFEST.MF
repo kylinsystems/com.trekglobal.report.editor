@@ -1,17 +1,17 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Report Editor
-Bundle-SymbolicName: com.trekglobal.report.editor
+Bundle-Name: KBS Plugins : Trekglobal Print Format Editor
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.trekglobal.printformateditor;singleton:=true
 Bundle-Version: 7.1.0.qualifier
-Bundle-Activator: com.trekglobal.report.editor.Activator
-Bundle-Vendor: TREKGLOBAL
+Bundle-Activator: com.kylinsystems.kbs.odt.Activator
+Bundle-Vendor: KBS
 Import-Package: org.osgi.framework;version="1.9.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
-Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
- org.adempiere.ui.zk;bundle-version="7.1.0",
- org.adempiere.plugin.utils;bundle-version="7.1.0",
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.ui.zk;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
  zcommon,
  zel,
  zhtml,
@@ -19,7 +19,8 @@ Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
  zkbind,
  zkplus,
  zul,
- zweb
-Service-Component: OSGI-INF/reporteditor.xml
+ zweb,
+ com.kylinsystems.kbs.odt;bundle-version="0.0.0"
+Service-Component: OSGI-INF/*.xml
 Export-Package: action.images
-Automatic-Module-Name: com.trekglobal.report.editor
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.trekglobal.printformateditor
